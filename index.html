@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="weather.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Weather App</h1>
+    <div class="search-container">
+      <form action="" id="two">
+        <input type="text" id="search" placeholder="Enter City">
+        <button>Search</button>
+      </form>
+    </div>
+    <div id="weather-info">
+
+    </div>
+    <div id="forecast-info">
+      <h2>5-Day Forecast</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Temperature (°C)</th>
+            <th>Weather</th>
+          </tr>
+        </thead>
+        <tbody id="forecast-table">
+          <!-- Forecast data will be inserted here dynamically -->
+        </tbody>
+      </table>
+    </div>
+  </div>
+
+  <script src="weather.js"></script>
+</body>
+</html>
